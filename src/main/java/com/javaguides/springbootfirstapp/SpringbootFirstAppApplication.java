@@ -1,0 +1,18 @@
+package com.javaguides.springbootfirstapp;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+
+
+
+@SpringBootApplication
+@ComponentScan(basePackages = "com.javaguides.springbootfirstapp")
+
+public class SpringbootFirstAppApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringbootFirstAppApplication.class, args);
+	}
+
+}
